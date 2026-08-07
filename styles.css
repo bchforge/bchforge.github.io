@@ -113,6 +113,35 @@ h2 {
   outline-offset: 0.25rem;
 }
 
+.focus-content p {
+  margin-bottom: 1rem;
+}
+
+.funding-link {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.3rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.5;
+  text-decoration-color: rgba(10, 193, 142, 0.55);
+  text-underline-offset: 0.25rem;
+  transition: color 150ms ease;
+}
+
+.funding-link span {
+  color: var(--accent);
+}
+
+.funding-link:hover {
+  color: var(--accent-strong);
+}
+
+.funding-link:focus-visible {
+  outline: 2px solid var(--accent-strong);
+  outline-offset: 0.25rem;
+}
+
 .tagline {
   max-width: 44rem;
   margin-bottom: 1rem;
