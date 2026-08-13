@@ -32,13 +32,13 @@ a {
 .page-shell {
   width: min(68rem, calc(100% - 2rem));
   margin: 0 auto;
-  padding: 4rem 0 2rem;
+  padding: 2rem 0 1.25rem;
 }
 
 .hero {
   position: relative;
   overflow: hidden;
-  padding: 4rem;
+  padding: 2.25rem 4rem;
   border: 1px solid var(--line);
   border-radius: 2rem;
   background:
@@ -64,15 +64,15 @@ a {
 
 .brand-mark {
   display: block;
-  width: 6rem;
-  height: 6rem;
-  margin-bottom: 2rem;
+  width: 4.5rem;
+  height: 4.5rem;
+  margin-bottom: 1.5rem;
   filter: drop-shadow(0 1.4rem 1.7rem rgba(0, 0, 0, 0.22));
 }
 
 .eyebrow,
 .section-label {
-  margin: 0 0 1rem;
+  margin: 0 0 0.75rem;
   color: var(--accent-strong);
   font-size: 0.78rem;
   font-weight: 700;
@@ -87,7 +87,7 @@ p {
 }
 
 h1 {
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
   font-size: clamp(3.4rem, 10vw, 7rem);
   line-height: 0.9;
   letter-spacing: -0.08em;
@@ -111,6 +111,20 @@ h2 {
 #focus-title a:focus-visible {
   outline: 2px solid var(--accent-strong);
   outline-offset: 0.25rem;
+}
+
+.status-badge {
+  display: inline-block;
+  margin-left: 0.4rem;
+  padding: 0.15rem 0.6rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  vertical-align: middle;
 }
 
 .focus-content p {
@@ -144,7 +158,7 @@ h2 {
 
 .tagline {
   max-width: 44rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
   color: var(--text);
   font-size: clamp(1.35rem, 3vw, 2rem);
   line-height: 1.2;
@@ -160,7 +174,7 @@ footer {
 
 .intro {
   max-width: 42rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   font-size: 1.05rem;
 }
 
@@ -207,8 +221,8 @@ footer {
   display: grid;
   grid-template-columns: minmax(14rem, 0.8fr) minmax(0, 1.2fr);
   gap: 2rem;
-  margin-top: 1rem;
-  padding: 2rem;
+  margin-top: 0.75rem;
+  padding: 1.5rem;
   border-radius: 1.4rem;
 }
 
@@ -221,12 +235,12 @@ footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
-  margin-top: 1rem;
+  margin-top: 0.75rem;
 }
 
 .grid article {
-  min-height: 12rem;
-  padding: 1.5rem;
+  min-height: 10rem;
+  padding: 1.4rem;
   border-radius: 1.3rem;
 }
 
@@ -236,7 +250,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
-  padding: 2rem 0 0;
+  padding: 1.25rem 0 0;
   font-size: 0.95rem;
 }
 
@@ -269,9 +283,9 @@ footer a {
   }
 
   .brand-mark {
-    width: 4.75rem;
-    height: 4.75rem;
-    margin-bottom: 1.4rem;
+    width: 4rem;
+    height: 4rem;
+    margin-bottom: 1.2rem;
   }
 
   .panel,
