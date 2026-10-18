@@ -98,17 +98,21 @@ h2 {
   font-size: 1.2rem;
 }
 
-#focus-title a {
+#focus-title a,
+#next-title a {
   text-decoration: none;
   transition: color 150ms ease;
 }
 
 #focus-title a span,
-#focus-title a:hover {
+#next-title a span,
+#focus-title a:hover,
+#next-title a:hover {
   color: var(--accent-strong);
 }
 
-#focus-title a:focus-visible {
+#focus-title a:focus-visible,
+#next-title a:focus-visible {
   outline: 2px solid var(--accent-strong);
   outline-offset: 0.25rem;
 }
